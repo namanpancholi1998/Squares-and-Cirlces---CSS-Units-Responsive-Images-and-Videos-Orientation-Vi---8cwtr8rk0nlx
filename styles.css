@@ -1,20 +1,79 @@
 .outer-square {
-  /* your css goes here */
+    background-color: white;
+
     width: 600px;
     height: 600px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* gap: 10px; */
 }
+
 .inner-square {
-  /* your css goes here */
-    height: 190px;
+    margin: 10px;
+
     background-color: green;
 }
-.circle {
-  /* your css goes here */
-    height: 190px;
+
+.inner-circle {
+    margin: 10px;
+
     border-radius: 50%;
     background-color: blue;
 }
+
+/* .square1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+.circle1 {
+    grid-row: 1;
+    grid-column: 2;
+} */
+
+/* .square2 {
+    grid-row: 1;
+    grid-column: 3;
+}
+.circle2 {
+    grid-row: 2;
+    grid-column: 1;
+} */
+
+/* .square3 {
+    grid-row: 2;
+    grid-column: 2;
+}
+.circle3 {
+    grid-row: 2;
+    grid-column: 3;
+} */
+
+/* .square4 {
+    grid-row: 3;
+    grid-column: 1;
+}
+.circle4 {
+    grid-row: 3;
+    grid-column: 2;
+} */
+
+/* .square5 {
+    grid-row: 3;
+    grid-column: 3;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
